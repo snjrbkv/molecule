@@ -1,0 +1,213 @@
+.team-box{
+padding: 100px 0;
+}
+.team-list{
+  @include flexes(space-between,center)
+}
+.team-button{
+  padding: 0 26px;
+  @include text(#fff,16px,400,24px);
+  background: rgba(121, 78, 255, 0.8);
+border: 2px solid #794EFF;
+border-radius: 100px;
+}
+.team-item__h3{
+  @include text(#1E313B,32px,700,35px);
+  margin-top: 29px;
+}
+.team-item__p{
+  @include text( #1E313B,18px,400,27px);
+  margin-top: 19px;
+}
+.team-item__button{
+  padding: 8px 15px;
+  @include text(#fff,16px,400,24px);
+  background: #794EFF;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+border: none;
+margin-top: 25px;
+}
+.team-img{
+  width: 500px;
+}
+@media only screen and(max-width:1080px) {
+  .team-box{
+    padding: 90px 0;
+    }
+    .team-list{
+      @include flexes(space-between,center)
+    }
+    .team-button{
+      padding: 0 24px;
+      @include text(#fff,14px,400,24px);
+      background: rgba(121, 78, 255, 0.8);
+    border: 2px solid #794EFF;
+    border-radius: 100px;
+    }
+    .team-item__h3{
+      @include text(#1E313B,27px,700,30px);
+      margin-top: 25px;
+    }
+    .team-item__p{
+      @include text( #1E313B,16px,400,25px);
+      margin-top: 15px;
+    }
+    .team-item__button{
+      padding: 8px 12px;
+      @include text(#fff,16px,400,24px);
+      background: #794EFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    margin-top: 25px;
+    }
+    .team-img{
+      width: 450px;
+    }
+}
+@media only screen and(max-width:970px) {
+  .team-box{
+    padding: 80px 0;
+    }
+    .team-list{
+      @include flexes(space-between,center)
+    }
+    .team-button{
+      padding: 0 22px;
+      @include text(#fff,13px,400,24px);
+      background: rgba(121, 78, 255, 0.8);
+    border: 2px solid #794EFF;
+    border-radius: 100px;
+    }
+    .team-item__h3{
+      @include text(#1E313B,24px,700,25px);
+      margin-top: 22px;
+    }
+    .team-item__p{
+      @include text( #1E313B,14px,400,25px);
+      margin-top: 12px;
+    }
+    .team-item__button{
+      padding: 7px 10px;
+      @include text(#fff,14px,400,22px);
+      background: #794EFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+    }
+    .team-img{
+      width: 400px;
+    }
+}
+@media only screen and(max-width:855px) {
+  .team-box{
+    padding: 70px 0;
+    }
+    .team-list{
+      @include flexes(space-between,center)
+    }
+    .team-button{
+      padding: 0 20px;
+      @include text(#fff,12px,400,22px);
+      background: rgba(121, 78, 255, 0.8);
+    border: 2px solid #794EFF;
+    border-radius: 100px;
+    }
+    .team-item__h3{
+      @include text(#1E313B,21px,500,20px);
+      margin-top: 20px;
+    }
+    .team-item__p{
+      @include text( #1E313B,12px,400,20px);
+      margin-top: 10px;
+    }
+    .team-item__button{
+      padding: 6px 9px;
+      @include text(#fff,12px,400,20px);
+      background: #794EFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    margin-top: 15px;
+    }
+    .team-img{
+      width: 350px;
+    }
+}
+@media only screen and(max-width:755px) {
+  .team-box{
+    padding: 60px 0;
+    }
+    .team-list{
+      @include flexes(space-between,center)
+    }
+    .team-button{
+      padding: 0 17px;
+      @include text(#fff,10px,400,20px);
+      background: rgba(121, 78, 255, 0.8);
+    border: 2px solid #794EFF;
+    border-radius: 100px;
+    }
+    .team-item__h3{
+      @include text(#1E313B,20px,500,16px);
+      margin-top: 17px;
+    }
+    .team-item__p{
+      @include text( #1E313B,10px,400,16px);
+      margin-top: 8px;
+    }
+    .team-item__button{
+      padding: 5px 8px;
+      @include text(#fff,10px,400,20px);
+      background: #794EFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    margin-top: 12px;
+    }
+    .team-img{
+      width: 300px;
+    }
+}
+@media only screen and(max-width:635px) {
+  .team-box{
+    padding: 60px 0;
+    }
+    .team-list{
+      @include flexes(space-between,center)
+    }
+    .team-button{
+      padding: 0 17px;
+      @include text(#fff,10px,400,20px);
+      background: rgba(121, 78, 255, 0.8);
+    border: 2px solid #794EFF;
+    border-radius: 100px;
+    }
+    .team-item__h3{
+      @include text(#1E313B,17px,500,16px);
+      margin-top: 17px;
+    }
+    .team-item__p{
+      @include text( #1E313B,8px,400,16px);
+      margin-top: 8px;
+    }
+    .team-item__button{
+      padding: 5px 8px;
+      @include text(#fff,8px,400,20px);
+      background: #794EFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    margin-top: 12px;
+    }
+    .team-img{
+      width: 300px;
+    }
+}
+@media only screen and(max-width:600px) {
+  .team-list{
+    @include flexes(space-between,center)
+  }
+}
